@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.shape.Rectangle?>
+<VBox alignment="BOTTOM_LEFT" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="test.stickzero.HelloController">
+    <padding>
+        <Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+    </padding>
+
+    <Label fx:id="welcomeText"/>
+    <!-- Add other game elements like Stick Hero character, pillars, etc. -->
+    <ImageView fx:id="stickHero" fitHeight="50" fitWidth="50" layoutX="50" />
+    <Rectangle fx:id="pillar" width="20" height="100" fill="GREEN" />
+</VBox>
